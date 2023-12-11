@@ -6,7 +6,7 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 
 def get_weather(city):
-    API_key = "cffa6a91cbb44d14ed8f4326fe748156"
+    API_key = "..."
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}"
     res = requests.get(url)
 
